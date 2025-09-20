@@ -236,3 +236,5 @@ public class ChatGPTClient {
 En ***String message*** podemos enviar el prompt para el análisis de históricos junto a la información recopilada, por motivos de tiempo no se logró implementar pero quedó la base para realizarlo.
 
 
+## Despliegue
+Este repositorio cuenta con integración y despliegie continuos mediante github actions, y el servidor se encuentra corriendo en una instacia de azure cuyo enlace es ***shares-brfjetaxgjhhhycw.canadacentral-01.azurewebsites.net***
