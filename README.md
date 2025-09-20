@@ -238,3 +238,5 @@ En ***String message*** podemos enviar el prompt para el análisis de histórico
 
 ## Despliegue
 Este repositorio cuenta con integración y despliegie continuos mediante github actions, y el servidor se encuentra corriendo en una instacia de azure cuyo enlace es ***shares-brfjetaxgjhhhycw.canadacentral-01.azurewebsites.net***
+![img.png](img/img.png)
+![img_1.png](img/img_1.png)
