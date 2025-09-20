@@ -235,6 +235,12 @@ public class ChatGPTClient {
 ```
 En ***String message*** podemos enviar el prompt para el análisis de históricos junto a la información recopilada, por motivos de tiempo no se logró implementar pero quedó la base para realizarlo.
 
+4. En lo que al cliente respecta, podemos utilizar un caché local ue soporte la concurrencia, por ejemplo, utilizar un ***ConcurrentHashMap*** en lugar del ***HashMap*** tradicional, ya que este permite múltiples lectores y cierto nivel de escritura concurrente sin bloqueo global.
+Las operaciones atómicas que permiten desarrollarse evitan condiciones de carrera típicas sin degradar mucho el rendimiento.
+
+
+![img.png](img/MSFT TEST.png)
+
 
 ## Despliegue
 Este repositorio cuenta con integración y despliegie continuos mediante github actions, y el servidor se encuentra corriendo en una instacia de azure cuyo enlace es ***shares-brfjetaxgjhhhycw.canadacentral-01.azurewebsites.net***
